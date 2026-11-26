@@ -19,11 +19,17 @@
 // Revision v2 (final): opens on the fate itself, uses a fresh image
 // (a decommissioned server that still pages you), and ends on the
 // punchline — the server misses you. 84 characters.
+// Revision v3: the v2 line fired TWO punchlines — the stock "paged at
+// 3 a.m." on-call trope (seen on a hundred mugs) and the fresh twist
+// of the server that misses you. The first laugh competed with and
+// diluted the second, and the joke never depended on the hour. Cut
+// "at 3 a.m." so the line has exactly one punchline, every word earns
+// its place, and the twist lands last. 74 characters.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FORTUNE =
-  "You will be paged at 3 a.m. by a server you decommissioned last year. It misses you.";
+  "You will be paged by a server you decommissioned last year. It misses you.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", FORTUNE, "utf8");

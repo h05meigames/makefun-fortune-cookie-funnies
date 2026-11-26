@@ -8,9 +8,9 @@ Entry for the [Fortune Cookie Funnies for Engineers](https://make.fun/bounty/u-e
 
 ## The fortune
 
-> You will be paged at 3 a.m. by a server you decommissioned last year. It misses you.
+> You will be paged by a server you decommissioned last year. It misses you.
 
-84 characters — one line, under the 120-character limit.
+74 characters — one line, under the 120-character limit.
 
 ## How it works
 
